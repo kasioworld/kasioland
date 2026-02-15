@@ -6,14 +6,24 @@
     </head>
     <body>
         <header>
+            <i><p id="datetime"></p></i>
+                <script>
+                    //current date and time
+                    var now = new Date();
+                    var datetime = now.toLocaleString();
+
+                    //insert into html
+                    document.getElementById("datetime").innerHTML = datetime;
+                </script>
             <h1><a href="index.html">kasioland</a></h1>
-            <p>a castle draped in vines, lit by warm candlelight and surrounded by a sea of ink. a puzzle piece of the mind, creases in the picture printed on its front. my home.</p>
-            <nav>
+                <nav>
                 <a href="blog.html">blog</a>
-                <a href="sounds.html">sounds</a>
+                <!-- <a href="sounds.html">sounds</a>          i havent made anything yet so lololololol-->
                 <a href="favthings.html">things i like</a>
-                <a href="friends.html">friends</a>
+                <!-- <a href="friends.html">friends</a>        not needed, going on homepage, here for posterity, i lowkey just burped a little-->
             </nav>
+            <br>
+            <p>a castle draped in vines, lit by warm candlelight and surrounded by a sea of ink. a puzzle piece of the mind, creases in the picture printed on its front. my home</p>
         </header>
         <main>
             <h2>introduction</h2>
@@ -28,7 +38,7 @@
                     </p>
                 </div>
             </section>
+
         </main>
-        <footer>testing put things here :)</footer>
     </body>
 </html>
