@@ -1,7 +1,7 @@
 # this is my website ^_^
 
 it changes a lot and most of it is subject to deletion or massive overhauls. who gafs tbh
----
+
 ## todo list:
 - finish up favthings.html
 - fix time formatting on index.html
